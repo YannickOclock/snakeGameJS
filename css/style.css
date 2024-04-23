@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #a5a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div#snake {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: #999393 1px solid;
+    border-top: #999393 1px solid;
+    position: relative;
+}
+
+div#snake > div.case {
+    box-sizing: border-box;
+    background-color: #e2cfcf;
+    border-left:#999393 1px solid;
+    border-bottom: #999393 1px solid;
+}
