@@ -74,6 +74,7 @@ const snake = {
                 break;
         }
 
+        // Si je sors de ma map
         if(newHead.x < 0) newHead.x = map.nbCases - 1;
         if(newHead.x >= map.nbCases) newHead.x = 0;
         if(newHead.y < 0) newHead.y = map.nbCases - 1;
@@ -95,6 +96,6 @@ const snake = {
         console.log('snake.init');
         snake.display();
 
-        setInterval(snake.update, 500);
+        setInterval(snake.update, 1000);
     },
 }

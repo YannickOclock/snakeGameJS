@@ -1,6 +1,6 @@
 const map = {
     rootElement: null,
-    nbCases: 20,
+    nbCases: 25,
 
     createCases: function() {
         for (let i = 0; i < this.nbCases; i++) {
